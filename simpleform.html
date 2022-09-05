@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oder From</title>
+</head>
+<body>
+    <form method="get" action="simpleform.html">
+        <h1>Order Form</h1>
+        <p><b> What would you like to buy?</b></p>
+        <select>
+            <option value="">option số 1</option>
+            <option value="">option số 2</option>
+            <option value="">option số 3</option>
+            <option value="">option số 4</option>
+        </select>
+        <p><b>How many would you like to order ?</b></p>
+        <input type="radio" name="rd"> 1-$10 <br/>
+        <input type="radio" name="rd"> 5-$20 <br/>
+        <input type="radio" name="rd"> 10-$30 <br/>
+
+        <p> <b>Name</b> <span style="color: red">*</span></p>
+        <input type="text" name="fname" placeholder="FirtName" size="20"/>
+        <input type="text" name="lname" placeholder="LastName" size="20"/>
+
+        <p><b>Email</b></p>
+        <input type="email" name="email" size="35"/>
+
+        <p><b>Phone Number</b></p>
+        <input type="text" name="phone1" size="5"/> -
+        <input type="text" name="phone2" size="5"/> -
+        <input type="text" name="phone3" size="5"/>
+            <br>
+        <input style="margin-top: 20px" type="button" name="btsubmit" value="Submit">
+    </form>
+</body>
+</html>
